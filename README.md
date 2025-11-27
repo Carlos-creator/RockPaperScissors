@@ -67,41 +67,43 @@ mi-proyecto-rps/
 
 ```
 
-## ⚙️ Instalación
-
-  
+## 🛠 Instalación
 
 Recomendamos usar un entorno virtual para evitar conflictos de versiones.
 
-  
+### 1. Clonar o descargar este repositorio.
 
-1.  **Clonar o descargar este repositorio.**
+### 2. Crear un entorno virtual:
 
-2.  **Crear un entorno virtual:**
+```bash
+python -m venv .venv
+```
 
-    ```bash
+### 3. Activar el entorno:
 
-    python -m venv .venv
+**Windows (CMD):**
 
-    ```
+```bash
+.venv\Scripts\activate
+```
 
-3.  **Activar el entorno:**
+**Linux/Mac:**
 
-      * Windows (CMD): `.venv\Scripts\activate`
+```bash
+source .venv/bin/activate
+```
 
-      * Linux/Mac: `source .venv/bin/activate`
+### 4. Instalar dependencias:
 
-4.  **Instalar dependencias:**
+```bash
+pip install -r requirements.txt
+```
 
-    ```bash
+*(Si no tienes el archivo, instala manualmente)*
 
-    pip install -r requirements.txt
-
-    ```
-
-    *(Si no tienes el archivo, instala manualmente: `pip install opencv-python mediapipe tensorflow scikit-learn pandas numpy joblib`)*
-
-  
+```bash
+pip install opencv-python mediapipe tensorflow scikit-learn pandas numpy joblib
+```
 
 ## 🎮 Cómo Jugar
 
